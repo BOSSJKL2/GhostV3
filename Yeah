@@ -1,0 +1,672 @@
+-- Gui to Lua
+-- Version: 3.2
+ 
+-- Instances:
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local IMAGE = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel2 = Instance.new("TextLabel")
+local FLINGALL = Instance.new("TextButton")
+local SpamCHAT = Instance.new("TextButton")
+local SpamTEXT = Instance.new("TextButton")
+local CREDIT = Instance.new("TextButton")
+local IQOBBY = Instance.new("TextButton")
+local CONSOLEDES = Instance.new("TextButton")
+local ENERGIZE = Instance.new("TextButton")
+local IY = Instance.new("TextButton")
+local OH = Instance.new("TextButton")
+local FLYING = Instance.new("TextButton")
+local STICKLE = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local NAMELESS = Instance.new("TextButton")
+local PENDULUM = Instance.new("TextButton")
+local HTTPS = Instance.new("TextLabel")
+local EMOJI1 = Instance.new("TextLabel")
+local EMOJI2 = Instance.new("TextLabel")
+
+--Properties:
+ 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Parent = game.CoreGui
+ 
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.536656916, 0, 0.220883010, 0)
+Frame.Size = UDim2.new(0, 300, 0, 250)
+
+IMAGE.Parent = Frame
+IMAGE.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
+IMAGE.BackgroundTransparency = 1
+IMAGE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IMAGE.BorderSizePixel = 3
+IMAGE.Size = UDim2.new(0, 282, 0, 226)
+IMAGE.Image = "rbxassetid://15866619293"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(229, 228, 223)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 3
+TextLabel.Position = UDim2.new(0, 0, 0.889380515, 0)
+TextLabel.Size = UDim2.new(0, 300, 0, 30)
+TextLabel.Font = Enum.Font.Creepster
+TextLabel.Text = "GH0TSHTTPS Gui V2 👻"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel2.Parent = Frame
+TextLabel2.BackgroundColor3 = Color3.fromRGB(229, 228, 223)
+TextLabel2.BackgroundTransparency = 1
+TextLabel2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2.BorderSizePixel = 3
+TextLabel2.Position = UDim2.new(0, 0, 0.779380515, 0)
+TextLabel2.Size = UDim2.new(0, 282, 0, 25)
+TextLabel2.Font = Enum.Font.Bangers
+TextLabel2.Text = "Made By y**nkidd B*ssJKL* y**zkidd 14anz k**paz ( 4 DEVEL*PER )"
+TextLabel2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2.TextScaled = true
+TextLabel2.TextSize = 14.000
+TextLabel2.TextWrapped = true
+
+FLINGALL.Parent = Frame
+FLINGALL.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+FLINGALL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FLINGALL.BorderSizePixel = 3
+FLINGALL.Rotation = 25
+FLINGALL.Position = UDim2.new(1.05, 0, 0.15, 0)
+FLINGALL.Size = UDim2.new(0, 100, 0, 25)
+FLINGALL.Font = Enum.Font.SourceSans
+FLINGALL.Text = "FLING ALL"
+FLINGALL.TextColor3 = Color3.fromRGB(0, 0, 0)
+FLINGALL.TextScaled = true
+FLINGALL.TextSize = 14.000
+FLINGALL.TextWrapped = true
+FLINGALL.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/0LLBHBq4"))()
+end)
+SpamCHAT.Parent = Frame
+SpamCHAT.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+SpamCHAT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpamCHAT.BorderSizePixel = 3
+SpamCHAT.Rotation = 25
+SpamCHAT.Position = UDim2.new(1.05, 0, 0.35, 0)
+SpamCHAT.Size = UDim2.new(0, 100, 0, 25)
+SpamCHAT.Font = Enum.Font.SourceSans
+SpamCHAT.Text = "Destroy Chat"
+SpamCHAT.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpamCHAT.TextScaled = true
+SpamCHAT.TextSize = 14.000
+SpamCHAT.TextWrapped = true
+SpamCHAT.MouseButton1Down:connect(function()
+local MESSAGE = "😡TEAM JKLO JOINED TO DAY HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!1?!1??"
+local E = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(MESSAGE, E)
+wait(0)
+local MESSAGE = "😡TEAM JKLO ON TOP TO DAY HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!1?!1??"
+local E = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(MESSAGE, E)
+wait(0)
+local MESSAGE = "😡TEAM JKLO GOAT TO DAY HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!1?!1??"
+local E = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(MESSAGE, E)
+end)
+SpamTEXT.Parent = Frame
+SpamTEXT.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+SpamTEXT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpamTEXT.BorderSizePixel = 3
+SpamTEXT.Rotation = -25
+SpamTEXT.Position = UDim2.new(-0.40, 0, 0.15, 0)
+SpamTEXT.Size = UDim2.new(0, 100, 0, 25)
+SpamTEXT.Font = Enum.Font.SourceSans
+SpamTEXT.Text = "NukeChat"
+SpamTEXT.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpamTEXT.TextScaled = true
+SpamTEXT.TextSize = 14.000
+SpamTEXT.TextWrapped = true
+SpamTEXT.MouseButton1Down:connect(function()
+wait(0)
+local MESSAGE = "TEAM JKLO WILL NUKE THIS SERVER IN 3 SEC"
+local EE = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(MESSAGE, EE)
+wait(1)
+local MESSAGE = "TEAM JKLO WILL NUKE THIS SERVER IN 2 SEC"
+local EE = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(MESSAGE, EE)
+wait(2)
+local MESSAGE = "TEAM JKLO WILL NUKE THIS SERVER IN 1 SEC"
+local EE = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(MESSAGE, EE)
+wait(1)
+local MESSAGE = "0 SEC LEFT!?!?"
+local EE = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(MESSAGE, EE)
+end)
+CREDIT.Parent = Frame
+CREDIT.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+CREDIT.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CREDIT.BorderSizePixel = 3
+CREDIT.Rotation = -25
+CREDIT.Position = UDim2.new(1.05, 0, 0.65, 0)
+CREDIT.Size = UDim2.new(0, 100, 0, 25)
+CREDIT.Font = Enum.Font.SourceSans
+CREDIT.Text = "Credit"
+CREDIT.TextColor3 = Color3.fromRGB(0, 0, 0)
+CREDIT.TextScaled = true
+CREDIT.TextSize = 14.000
+CREDIT.TextWrapped = true
+CREDIT.MouseButton1Down:connect(function()
+TextBox.Text = "B"
+wait(0.3)
+TextBox.Text = "By"
+wait(0.3)
+TextBox.Text = "By T"
+wait(0.3)
+TextBox.Text = "By TJ"
+end)
+IQOBBY.Parent = Frame
+IQOBBY.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+IQOBBY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IQOBBY.BorderSizePixel = 3
+IQOBBY.Rotation = -25
+IQOBBY.Position = UDim2.new(-0.40, 0, 0.35, 0)
+IQOBBY.Size = UDim2.new(0, 100, 0, 25)
+IQOBBY.Font = Enum.Font.SourceSans
+IQOBBY.Text = "IQ OBBY TELEPORT"
+IQOBBY.TextColor3 = Color3.fromRGB(0, 0, 0)
+IQOBBY.TextScaled = true
+IQOBBY.TextSize = 14.000
+IQOBBY.TextWrapped = true
+IQOBBY.MouseButton1Down:connect(function()
+game:GetService("TeleportService"):Teleport(12805830692)
+wait()
+end)
+CONSOLEDES.Parent = Frame
+CONSOLEDES.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+CONSOLEDES.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CONSOLEDES.BorderSizePixel = 3
+CONSOLEDES.Position = UDim2.new(-0.40, 0, 0.65, 0)
+CONSOLEDES.Rotation = 25
+CONSOLEDES.Size = UDim2.new(0, 100, 0, 25)
+CONSOLEDES.Font = Enum.Font.SourceSans
+CONSOLEDES.Text = "CONSOLE DESTROYED"
+CONSOLEDES.TextColor3 = Color3.fromRGB(0, 0, 0)
+CONSOLEDES.TextScaled = true
+CONSOLEDES.TextSize = 14.000
+CONSOLEDES.TextWrapped = true
+CONSOLEDES.MouseButton1Down:connect(function()
+game.StarterGui:SetCore("DevConsoleVisible", true)
+wait(0)
+while wait(0) do
+warn("BossJKLO HAS DESTROYED YOUR Account HAHAHAHA!$!$!$")
+print("BossJKLO HAS DESTROYED YOUR Account HAHAHAHA!$!$!$")
+end
+end)
+ENERGIZE.Parent = Frame
+ENERGIZE.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+ENERGIZE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ENERGIZE.BorderSizePixel = 3
+ENERGIZE.Position = UDim2.new(0, 0, 0.06, 0)
+ENERGIZE.Size = UDim2.new(0, 100, 0, 25)
+ENERGIZE.Font = Enum.Font.SourceSans
+ENERGIZE.Text = "Energize GUI"
+ENERGIZE.TextColor3 = Color3.fromRGB(0, 0, 0)
+ENERGIZE.TextScaled = true
+ENERGIZE.TextSize = 14.000
+ENERGIZE.TextWrapped = true
+ENERGIZE.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Rx4Qqicd"))()
+end)
+IY.Parent = Frame
+IY.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IY.BorderSizePixel = 3
+IY.Position = UDim2.new(0, 0, 0.2, 0)
+IY.Size = UDim2.new(0, 100, 0, 25)
+IY.Font = Enum.Font.SourceSans
+IY.Text = "Infinite Yield"
+IY.TextColor3 = Color3.fromRGB(0, 0, 0)
+IY.TextScaled = true
+IY.TextSize = 14.000
+IY.TextWrapped = true
+IY.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+OH.Parent = Frame
+OH.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+OH.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OH.BorderSizePixel = 3
+OH.Position = UDim2.new(0.5, 0, 0.06, 0)
+OH.Size = UDim2.new(0, 100, 0, 25)
+OH.Font = Enum.Font.SourceSans
+OH.Text = "OrbitHAT"
+OH.TextColor3 = Color3.fromRGB(0, 0, 0)
+OH.TextScaled = true
+OH.TextSize = 14.000
+OH.TextWrapped = true
+OH.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BsJ4xfXu"))()
+end)
+FLYING.Parent = Frame
+FLYING.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+FLYING.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FLYING.BorderSizePixel = 3
+FLYING.Position = UDim2.new(0.5, 0, 0.2, 0)
+FLYING.Size = UDim2.new(0, 100, 0, 25)
+FLYING.Font = Enum.Font.SourceSans
+FLYING.Text = "Fly"
+FLYING.TextColor3 = Color3.fromRGB(0, 0, 0)
+FLYING.TextScaled = true
+FLYING.TextSize = 14.000
+FLYING.TextWrapped = true
+FLYING.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TCHpDrRr"))()
+end)
+STICKLE.Parent = Frame
+STICKLE.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+STICKLE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+STICKLE.BorderSizePixel = 3
+STICKLE.Position = UDim2.new(0, 0, 0.34, 0)
+STICKLE.Size = UDim2.new(0, 100, 0, 25)
+STICKLE.Font = Enum.Font.SourceSans
+STICKLE.Text = "Stickle"
+STICKLE.TextColor3 = Color3.fromRGB(0, 0, 0)
+STICKLE.TextScaled = true
+STICKLE.TextSize = 14.000
+STICKLE.TextWrapped = true
+STICKLE.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
+end)
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 3
+TextBox.Position = UDim2.new(0, 0, 0.47, 0)
+TextBox.Size = UDim2.new(0, 282, 0, 25)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+NAMELESS.Parent = Frame
+NAMELESS.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+NAMELESS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NAMELESS.BorderSizePixel = 3
+NAMELESS.Position = UDim2.new(0, 0, 0.65, 0)
+NAMELESS.Size = UDim2.new(0, 100, 0, 25)
+NAMELESS.Font = Enum.Font.SourceSans
+NAMELESS.Text = "Nameless ADMIN"
+NAMELESS.TextColor3 = Color3.fromRGB(0, 0, 0)
+NAMELESS.TextScaled = true
+NAMELESS.TextSize = 14.000
+NAMELESS.TextWrapped = true
+NAMELESS.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+end)
+PENDULUM.Parent = Frame
+PENDULUM.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
+PENDULUM.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PENDULUM.BorderSizePixel = 3
+PENDULUM.Position = UDim2.new(0.5, 0, 0.65, 0)
+PENDULUM.Size = UDim2.new(0, 120, 0, 25)
+PENDULUM.Font = Enum.Font.SourceSans
+PENDULUM.Text = "Pendulum Hub V5"
+PENDULUM.TextColor3 = Color3.fromRGB(0, 0, 0)
+PENDULUM.TextScaled = true
+PENDULUM.TextSize = 14.000
+PENDULUM.TextWrapped = true
+PENDULUM.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+HTTPS.Parent = Frame
+HTTPS.BackgroundColor3 = Color3.fromRGB(229, 228, 223)
+HTTPS.BackgroundTransparency = 1
+HTTPS.Rotation = 25
+HTTPS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HTTPS.BorderSizePixel = 3
+HTTPS.Position = UDim2.new(0.5, 0, 0.10, 0)
+HTTPS.Size = UDim2.new(0, 282, 0, 25)
+HTTPS.Font = Enum.Font.Creepster
+HTTPS.Text = "HTTPS"
+HTTPS.TextColor3 = Color3.fromRGB(0, 0, 0)
+HTTPS.TextScaled = true
+HTTPS.TextSize = 14.000
+HTTPS.TextWrapped = true
+
+-- Scripts:
+
+local function QFCS_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(QFCS_fake_script)()
+local function PKIPWI_fake_script() -- FLINGALL.LocalScript 
+	local script = Instance.new('LocalScript', FLINGALL)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- SpamCHAT.LocalScript 
+	local script = Instance.new('LocalScript', SpamCHAT)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- SpamTEXT.LocalScript 
+	local script = Instance.new('LocalScript', SpamTEXT)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- CREDIT.LocalScript 
+	local script = Instance.new('LocalScript', CREDIT)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- TextLabel2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel2)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.TextColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.TextColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.TextColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.TextColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.TextColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.TextColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- IQOBBY.LocalScript 
+	local script = Instance.new('LocalScript', IQOBBY)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- CONSOLEDES.LocalScript 
+	local script = Instance.new('LocalScript', CONSOLEDES)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,255,0)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,255,i)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0,i,255)
+			wait(0.01)
+		end
+		for i = 0,255,5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(i,0,255)
+			wait(0.01)
+		end
+		for i = 255,0,-5 do
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,i)
+			wait(0.01)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
+local function PKIPWI_fake_script() -- HTTPS.LocalScript 
+	local script = Instance.new('LocalScript', HTTPS)
+
+	while wait() do
+		for i = 0,255,5 do
+			script.Parent.TextColor3 = Color3.fromRGB(255,i,0) -- change backgroundcolor3 to textcolor3 to make text color rainbow
+			wait(0)
+		end
+		for i = 255,0,-5 do
+			script.Parent.TextColor3 = Color3.fromRGB(i,255,0)
+			wait(0)
+		end
+		for i = 0,255,5 do
+			script.Parent.TextColor3 = Color3.fromRGB(0,255,i)
+			wait(0)
+		end
+		for i = 255,0,-5 do
+			script.Parent.TextColor3 = Color3.fromRGB(0,i,255)
+			wait(0)
+		end
+		for i = 0,255,5 do
+			script.Parent.TextColor3 = Color3.fromRGB(i,0,255)
+			wait(0)
+		end
+		for i = 255,0,-5 do
+			script.Parent.TextColor3 = Color3.fromRGB(255,0,i)
+			wait(0)
+		end
+	end
+end
+coroutine.wrap(PKIPWI_fake_script)()
