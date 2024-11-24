@@ -279,16 +279,16 @@ BRING.Parent = Frame
 BRING.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
 BRING.BorderColor3 = Color3.fromRGB(0, 0, 0)
 BRING.BorderSizePixel = 3
-BRING.Position = UDim2.new(0.5, 0, 0.2, 0)
+BRING.Position = UDim2.new(0.5, 0, 0.34, 0)
 BRING.Size = UDim2.new(0, 100, 0, 25)
 BRING.Font = Enum.Font.SourceSans
-BRING.Text = "Fly"
+BRING.Text = "Bring"
 BRING.TextColor3 = Color3.fromRGB(0, 0, 0)
 BRING.TextScaled = true
 BRING.TextSize = 14.000
 BRING.TextWrapped = true
 BRING.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/TCHpDrRr"))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/iThJgCAS'),true))()
 end)
 STICKLE.Parent = Frame
 STICKLE.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
