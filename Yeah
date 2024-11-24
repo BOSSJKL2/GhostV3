@@ -288,7 +288,7 @@ BRING.TextScaled = true
 BRING.TextSize = 14.000
 BRING.TextWrapped = true
 BRING.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/iThJgCAS'),true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/iThJgCAS"))()
 end)
 STICKLE.Parent = Frame
 STICKLE.BackgroundColor3 = Color3.fromRGB(226, 155, 64)
